@@ -9,7 +9,8 @@
 
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
+  <script src="//use.typekit.net/kaj1sye.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
   <?php wp_head(); ?>
 </head>
 
