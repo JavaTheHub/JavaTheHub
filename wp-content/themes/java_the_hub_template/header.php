@@ -15,22 +15,24 @@
 </head>
 
 
-<body <?php body_class(); ?>>
+<body class="tk-futura-pt" <?php body_class(); ?>>
 
 <header>
   <div class="container">
     
     <h1>
-
       <a class="welcome" href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <?php bloginfo( 'name' ); ?>
       </a>
     </h1>
 
-    <?php wp_nav_menu( array(
-      'container' => false,
-      'theme_locations' => 'primary'
-    )); ?>
+    <nav>  
+      <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="news.php">News</a></li>
+        <li><a href="menu.php">Menu</a></li>
+      </ul>
+    </nav>
 
   </div> <!-- /.container -->
 </header><!--/.header-->
