@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+    <p>Wordpress Theme &copy; Brittany Hemming & Danny Paton <?php echo date('Y'); ?></p>
   </div>
 </footer>
 
