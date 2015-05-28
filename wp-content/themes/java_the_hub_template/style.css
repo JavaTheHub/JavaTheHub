@@ -43,6 +43,7 @@ img.alignright    { padding-left: 5px; }
    ========================================================================== */
 
 body {
+  margin: 0 auto;
   color:#333;
 }
 
@@ -64,16 +65,17 @@ body {
 
 /* links */
 a {
-  color:#BA209B;
+  color: #8A0218;
   text-decoration: none;
 }
 
 a:hover {
-  color: #D424B1;
+  color: #FF3652;
 }
 
 /* paragraphs */
 p {
+  color: black;
   line-height: 1.5;
 }
 
@@ -144,6 +146,15 @@ footer {
   clear:both;
 }
 
+/* =============================================================================
+                   Footer
+   ========================================================================== */
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 22%;
+  font-size: 60px;
+}
 
 /* =============================================================================
                    Navigation
@@ -151,19 +162,73 @@ footer {
   ul.menu {
     margin:0;
     padding:0;
+    right: 25px;
+    bottom: 50px;
+    position: fixed;
+
   }
     ul.menu li {
-      display:inline;
-      margin-right: 10px;
+      list-style-type: none;
     }
+  ul.menu li a {
+    color:white;
+  }
+  ul.menu li a:hover {
+    color:white;
+  }
+  
+  .welcome {
+    color:white;
+  }
+  header {
+    background: url(../java_the_hub_template/img/coffee-seven.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+    height: 100vh;
+  }
 
-      ul.menu li a {
-        color:#333;
-        padding:10px;
-        background:#333;
-        color:white;
-      }
 
+/*news*/
+
+.blog {
+  background: url(../java_the_hub_template/img/paper-two.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/*single blog posts*/
+.entry-title {
+  padding: 30px 0;
+  text-align: left;
+}
+#search-2, .archives {
+  padding: 60px 0 20px;
+}
+.single {
+  background: url(../java_the_hub_template/img/paper-two.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+}
+.archive {
+  background: url(../java_the_hub_template/img/paper-two.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+}
 
 /* =============================================================================
                    Comment Styling
