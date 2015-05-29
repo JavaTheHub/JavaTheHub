@@ -26,13 +26,20 @@
       </a>
     </h1>
 
-    <nav>  
-      <ul class="menu">
+      <?php 
+      wp_nav_menu(
+        array(
+          'container' => 'nav',
+          'theme_location' => 'primary'
+          )
+        );
+       ?> 
+     <!--  <ul class="menu">
         <li><a href="/">Home</a></li>
-        <li><a href="news.php">News</a></li>
-        <li><a href="menu.php">Menu</a></li>
-      </ul>
-    </nav>
+        <li><a href="page-news.php">News</a></li>
+        <li><a href="page-menu.php">Menu</a></li>
+      </ul> -->
+
 
   </div> <!-- /.container -->
 </header><!--/.header-->
