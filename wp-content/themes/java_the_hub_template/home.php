@@ -5,7 +5,6 @@
   <div class="container">
 
     <div class="content" data-midnight="black">
-    		<?php get_template_part( 'loop', 'index' );	?>
 
     	<h2>The History of Coffee</h2>
     	<p>Legend has it that coffee was first discovered around the 9th century in the Ethiopian highlands. A shepherd named Kaldi noticed energizing effects when his flock nibbled at the red berries of a certain bush. Upon ingesting the fruit himself, he noticed the same energizing effects. Kaldi then took the beans to a local monastery where the monk disapproved and threw them into the fire. The beans gave off such a lovely aroma that it attracted the other monks. They scooped the beans out of the fire, ground them up and boiled them in water and the first cup of coffee was born.</p>
