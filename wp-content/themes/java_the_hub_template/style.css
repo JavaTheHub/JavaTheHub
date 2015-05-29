@@ -45,11 +45,22 @@ img.alignright    { padding-left: 5px; }
 body {
   margin: 0 auto;
   color:#333;
+  line-height:15px;
 }
 
 .container {
   max-width:1200px;
   margin:0 auto;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.container p{
+  line-height:35px;
+  letter-spacing:1px;
+}
+.container h2, .container h3{
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .content {
@@ -57,6 +68,20 @@ body {
   width:65%;
   margin-right: 5%;
 
+}
+.about{
+  max-width:1200px;
+  margin:0 auto;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.about p{
+  line-height:35px;
+  letter-spacing:1px;
+}
+.about h2, .about h3{
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .full {
@@ -144,6 +169,9 @@ pre {
 
 footer {
   clear:both;
+  padding:5px;
+  margin:0 auto;
+  text-align:center;
 }
 
 /* =============================================================================
@@ -189,7 +217,25 @@ h1 {
     margin: 0 auto;
     height: 100vh;
   }
-
+/*home page*/
+.hero2{
+  background-image:url(../java_the_hub_template/img/coffee-eight.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+}
+.hero3{
+  background-image:url(../java_the_hub_template/img/coffee-four.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+}
 
 /*news*/
 
