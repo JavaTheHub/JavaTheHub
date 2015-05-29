@@ -26,14 +26,14 @@
       </a>
     </h1>
 
-      <?php 
+      <nav class="fixed" data-midnight="white"><?php 
       wp_nav_menu(
         array(
           'container' => 'nav',
           'theme_location' => 'primary'
           )
         );
-       ?> 
+       ?></nav>
      <!--  <ul class="menu">
         <li><a href="/">Home</a></li>
         <li><a href="page-news.php">News</a></li>
