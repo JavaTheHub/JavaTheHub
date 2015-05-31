@@ -1,10 +1,10 @@
 /*
 Theme Name: Java The Hub
-Theme URI: http://hackeryou.com;
-Description: Starter theme for building any website. Created by HackerYou. Rename this to your own theme page.
+Theme URI: http://dannypaton.com/javathehub;
+Description: A Coffee Shop Wordpress theme. http://brittanyhemming.com | http://dannypaton.com
 Version: 1.0
-Author: HackerYou
-Author URI: http://hackeryou.com
+Author: Brittany Hemming and Danny Paton
+Author URI:
 */
 
 
@@ -52,7 +52,7 @@ body {
   background-color: white;
   max-width:100%;
   margin:0 auto;
-  padding: 100px 60px;
+  padding: 100px;
 }
 .container-main {
   background-color: white;
@@ -113,6 +113,7 @@ a:hover {
 p {
   color: black;
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 /*blockquotes*/
@@ -232,10 +233,10 @@ h1 {
       list-style-type: none;
     }
   ul.menu li a {
-    color:white;
+    color:#5F6153;
   }
   ul.menu li a:hover {
-    color:white;
+    color:#929681;
   }
   
   .welcome {
@@ -249,6 +250,10 @@ h1 {
     background-size: cover;
     margin: 0 auto;
     height: 100vh;
+  }
+  .fa {
+    margin-top: 150px;
+    color: white;
   }
 /*home page*/
 .hero2{

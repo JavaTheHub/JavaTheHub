@@ -10,7 +10,9 @@
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <script src="//use.typekit.net/kaj1sye.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script>try{Typekit.load();}catch(e){}</script>
   <?php wp_head(); ?>
 </head>
 
@@ -23,10 +25,14 @@
     <h1>
       <a class="welcome" href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <?php bloginfo( 'name' ); ?>
+      </a><br>
+      <a href="#main" class="btn btn-circle">
+        <i class="fa fa-angle-double-down animated"></i>
       </a>
+
     </h1>
 
-      <nav class="fixed" data-midnight="white"><?php 
+      <nav class="fixed"><?php 
       wp_nav_menu(
         array(
           'container' => 'nav',
