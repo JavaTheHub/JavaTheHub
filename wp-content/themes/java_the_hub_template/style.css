@@ -275,6 +275,16 @@ h1 {
   margin: 0 auto;
   height: 100vh;
 }
+/*menu page*/
+.menu{
+  background-image:url(../java_the_hub_template/img/menubackground.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100vh;
+}
 
 /* =============================================================================
                    Comment Styling
