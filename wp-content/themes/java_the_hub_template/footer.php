@@ -1,7 +1,7 @@
-<footer>
-	<a href="#"><img src="../java_the_hub_template/img/SilverSocialMediaIcons/Facebook.png" alt=""></a>
-	<a href="#"><img src="../java_the_hub_template/img/SilverSocialMediaIcons/Twitter.png" alt=""></a>
-	<a href="#"><img src="../java_the_hub_template/img/SilverSocialMediaIcons/instagram.png" alt=""></a>
+<footer class="footer-main">
+	<a href="#" class="img-footer1"></a>
+	<a href="#" class="img-footer2"></a>
+	<a href="#" class="img-footer3"></a>
     <p>Wordpress Theme &copy; Brittany Hemming & Danny Paton <?php echo date('Y'); ?></p>
 </footer>
 

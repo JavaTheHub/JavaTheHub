@@ -2,8 +2,8 @@
 <?php get_header(); ?>
 
 <!--Content-->
-<div class="menu">
-	<div class="content">
+<div class="menu-main">
+	<div class="content-menu">
 	 <?php // Start the loop ?>
 
         <h2><?php the_title(); ?></h2>

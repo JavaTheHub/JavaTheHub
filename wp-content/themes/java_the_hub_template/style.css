@@ -61,6 +61,7 @@ body {
 .container h2, .container h3{
   padding-top:20px;
   padding-bottom:20px;
+  color: #8A0218;
 }
 
 .content {
@@ -74,6 +75,9 @@ body {
   margin:0 auto;
   padding-top:100px;
   padding-bottom:100px;
+}
+.about h2 {
+  color: #8A0218;
 }
 .about p{
   line-height:35px;
@@ -166,12 +170,34 @@ pre {
 /* =============================================================================
                    Footer
    ========================================================================== */
+   footer {
+     clear:both;
+     padding:5px;
+     margin:0 auto;
+     text-align:center;
+   }
 
-footer {
+.footer-main {
   clear:both;
   padding:5px;
   margin:0 auto;
   text-align:center;
+  background-color: white;
+}
+.img-footer1 {
+  content:url(img/SilverSocialMediaIcons/Facebook.png);
+  width: 50px;
+  height: 50px;
+}
+.img-footer2 {
+  content:url(img/SilverSocialMediaIcons/Twitter.png);
+  width: 50px;
+  height: 50px;
+}
+.img-footer3 {
+  content:url(img/SilverSocialMediaIcons/instagram.png);
+  width: 50px;
+  height: 50px;
 }
 
 /* =============================================================================
@@ -276,14 +302,23 @@ h1 {
   height: 100vh;
 }
 /*menu page*/
-.menu{
+.menu-main {
   background-image:url(../java_the_hub_template/img/menubackground.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   margin: 0 auto;
-  height: 100vh;
+  height: 900px;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+.content-menu {
+  width: 100%;
 }
 
 /* =============================================================================
