@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <div class="main">
-  <div class="container">
+  <div class="container-main">
 
     <div class="content" data-midnight="black">
     		<?php get_template_part( 'loop', 'index' );	?>
