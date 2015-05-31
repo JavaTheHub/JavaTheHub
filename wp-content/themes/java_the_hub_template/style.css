@@ -68,7 +68,7 @@ body {
 .container h2, .container h3{
   padding-top:20px;
   padding-bottom:20px;
-  color: #8A0218;
+  color: #5F6153;
 }
 
 .content {
@@ -84,7 +84,7 @@ body {
   padding-bottom:100px;
 }
 .about h2 {
-  color: #8A0218;
+  color: #5F6153;
 }
 .about p{
   line-height:35px;
@@ -101,12 +101,12 @@ body {
 
 /* links */
 a {
-  color: #8A0218;
+  color: #5F6153;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FF3652;
+  color: #5F6153;
 }
 
 /* paragraphs */
@@ -242,7 +242,7 @@ h1 {
     color:white;
   }
   header {
-    background: url(../java_the_hub_template/img/coffee-seven.jpg) no-repeat center center fixed; 
+    background: url(../java_the_hub_template/img/header.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
