@@ -18,7 +18,7 @@
 <body class="tk-futura-pt" <?php body_class(); ?>>
 
 <header>
-  <div class="container">
+  <div class="container-header">
     
     <h1>
       <a class="welcome" href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
