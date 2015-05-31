@@ -1,7 +1,7 @@
 <?php //Template Name: Home?>
 <?php get_header(); ?>
 
-<div class="main">
+<div id="main" class="main">
 <div class="about">
     <?php // Start the loop ?>
 

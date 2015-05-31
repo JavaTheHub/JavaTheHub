@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <!--Content-->
-<div class="menu-main">
+<div class="menu-main" id="main">
 	<div class="content-menu">
 	 <?php // Start the loop ?>
 

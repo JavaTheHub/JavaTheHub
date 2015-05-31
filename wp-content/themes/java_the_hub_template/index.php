@@ -4,7 +4,7 @@
 <div class="main">
   <div class="container-main">
 
-    <div class="content" data-midnight="black">
+    <div id="main" class="content">
     		<?php get_template_part( 'loop', 'index' );	?>
 
     </div> <!--/.content -->

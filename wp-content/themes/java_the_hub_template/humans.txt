@@ -3,7 +3,7 @@
 
 
 /* TEAM */
-  <your title>: <your name>
+  <your title>: Brittany Hemming and Danny Paton
   Site:
   Twitter:
   Location:
