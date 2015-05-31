@@ -1,4 +1,7 @@
 <footer>
+	<a href="#"><img src="../java_the_hub_template/img/SilverSocialMediaIcons/Facebook.png" alt=""></a>
+	<a href="#"><img src="../java_the_hub_template/img/SilverSocialMediaIcons/Twitter.png" alt=""></a>
+	<a href="#"><img src="../java_the_hub_template/img/SilverSocialMediaIcons/instagram.png" alt=""></a>
     <p>Wordpress Theme &copy; Brittany Hemming & Danny Paton <?php echo date('Y'); ?></p>
 </footer>
 
